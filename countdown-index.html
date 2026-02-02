@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14 Days Until Valentine's Day 💕</title>
+    <link rel="stylesheet" href="countdown-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating hearts background -->
+    <div class="hearts-background" id="heartsBackground"></div>
+
+    <!-- SCREEN 0: INTRO -->
+    <section class="screen active" id="screen0" data-index="0">
+        <div class="content-card">
+            <!-- EDIT MESSAGE HERE -->
+            <h1 class="intro-title">Hey Beautiful... ✨</h1>
+            <p class="intro-subtitle">I've been counting down the days until I could tell you something special...</p>
+            <p class="intro-text">Are you ready for a journey through 14 days of reasons why you mean the world to me?</p>
+            <!-- END EDIT -->
+            <button class="btn-primary" onclick="nextPage()">Start the Journey 💕</button>
+        </div>
+    </section>
+
+    <!-- SCREENS 1-14: DAILY LOVE NOTES -->
+    
+    <!-- Day 1: February 1st -->
+    <section class="screen" id="screen1" data-index="1">
+        <div class="content-card">
+            <div class="date-badge">February 1st</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Your Smile</h2>
+            <p class="day-message">
+                Your smile feels like sunrise in human form. The kind that does not just light up a room, 
+                but gently rearranges something inside my heart and soul. 
+                When you smile, I forget what sadness even sounds like. It’s soft, warm, and dangerous in the best way… 
+                because every time I see it, I fall all over again. I don’t just love your smile — I love the way it quietly owns my heart.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 2: February 2nd -->
+    <section class="screen" id="screen2" data-index="2">
+        <div class="content-card">
+            <div class="date-badge">February 2nd</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Your Beauty</h2>
+            <p class="day-message">
+                You are beautiful in ways mirrors could never capture. 
+                Your beauty isn’t just what I see, it’s what I feel. It’s in the way you exist, in the way you move, in the way your presence alone shifts my entire mood. 
+                You don’t try to be beautiful. You simply are. And somehow, effortlessly, you became the most beautiful person in my world.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 3: February 3rd -->
+    <section class="screen" id="screen3" data-index="3">
+        <div class="content-card">
+            <div class="date-badge">February 3rd</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Your Kindness</h2>
+            <p class="day-message">
+               Your kindness is one of the softest, strongest things I’ve ever known. 
+               You care so genuinely. You love so gently. 
+               You show up with warmth even when you don’t have to. 
+               The way your heart moves through the world makes me want to be a better person. Loving you feels like standing near pure light.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 4: February 4th -->
+    <section class="screen" id="screen4" data-index="4">
+        <div class="content-card">
+            <div class="date-badge">February 4th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Your Strength</h2>
+            <p class="day-message">
+                You are stronger than you realize. Strong in your heart. Strong in your mind. 
+                Strong in the way you keep going, even when things are heavy. 
+                Watching you exist with grace and resilience makes me admire you more every single day. You inspire me. You are my Muse. 
+                You amaze me. You make me proud to love you.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 5: February 5th -->
+    <section class="screen" id="screen5" data-index="5">
+        <div class="content-card">
+            <div class="date-badge">February 5th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">The Little Things</h2>
+            <p class="day-message">
+                It’s the little things you do that quietly steal my heart. 
+                The small smiles. The tiny reactions. The way you say certain words. The way you look when you’re thinking. 
+                You probably don’t even notice these moments… but I collect them like treasures. 
+                Because loving you lives in the details.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 6: February 6th -->
+    <section class="screen" id="screen6" data-index="6">
+        <div class="content-card">
+            <div class="date-badge">February 6th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Your Dreams</h2>
+            <p class="day-message">
+                I love the way you dream. I love the things you want for your life. 
+                I love the future you imagine for yourself. And selfishly… 
+                I love the idea of being somewhere inside those dreams. 
+                I want to support you, encourage you, and stand beside you while you become everything you’re meant to be.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 7: February 7th -->
+    <section class="screen" id="screen7" data-index="7">
+        <div class="content-card">
+            <div class="date-badge">February 7th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">How You Make Me Feel</h2>
+            <p class="day-message">
+                You make me feel calm. You make me feel excited. You make me feel understood. 
+                You make me feel chosen. When I think about you, my heart feels full in a way I didn’t know was possible. 
+                You don’t just make me happy… you make me feel alive.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 8: February 8th -->
+    <section class="screen" id="screen8" data-index="8">
+        <div class="content-card">
+            <div class="date-badge">February 8th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Your Intelligence</h2>
+            <p class="day-message">
+                Your mind is beautiful. The way you think. The way you understand things. 
+                The way you express yourself. I love having conversations with you because you challenge me, intrigue me, and impress me. 
+                Your intelligence isn’t loud, it’s graceful. And I’m endlessly attracted to it.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 9: February 9th -->
+    <section class="screen" id="screen9" data-index="9">
+        <div class="content-card">
+            <div class="date-badge">February 9th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Our Memories</h2>
+            <p class="day-message">
+                Every memory with you feels special. Even the simple ones. 
+                Even the quiet ones. Because you’re in them. I replay moments with you in my mind more often than you know. 
+                And each time, I smile… because our memories feel like little pieces of happiness I get to keep forever.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 10: February 10th -->
+    <section class="screen" id="screen10" data-index="10">
+        <div class="content-card">
+            <div class="date-badge">February 10th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Our chemistry</h2>
+            <p class="day-message">
+                What we have feels rare. The kind of chemistry that can’t be forced, faked, or explained. 
+                It’s magnetic. It’s effortless. It’s powerful. Being around you feels like being exactly where I’m supposed to be. 
+                Our energy speaks its own language, and somehow, we both understand it perfectly.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 11: February 11th -->
+    <section class="screen" id="screen11" data-index="11">
+        <div class="content-card">
+            <div class="date-badge">February 11th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">The Comfort You Bring</h2>
+            <p class="day-message">
+                Being with you feels like home. You calm my thoughts. You soften my worries. You make the world feel less heavy. 
+                Your presence alone is comforting, and I don’t take that lightly. 
+                You are my safe place, and I cherish that more than words can explain.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 12: February 12th -->
+    <section class="screen" id="screen12" data-index="12">
+        <div class="content-card">
+            <div class="date-badge">February 12th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Your energy</h2>
+            <p class="day-message">
+               Your energy feels like magic to me. It’s warm, comforting, exciting, and addictive all at once. 
+               When you walk into a room, everything shifts. When you talk, I listen differently. When you laugh, my heart reacts before my mind does. 
+               Your energy isn’t just something I notice… it’s something I feel deep inside my soul. Being around you feels like being wrapped in something familiar, powerful, and beautiful. You don’t just exist, you glow.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Next Day →</button>
+        </div>
+    </section>
+
+    <!-- Day 13: February 13th -->
+    <section class="screen" id="screen13" data-index="13">
+        <div class="content-card">
+            <div class="date-badge">February 13th</div>
+            <!-- EDIT MESSAGE HERE -->
+            <h2 class="day-title">Tomorrow is Special</h2>
+            <p class="day-message">
+                We've almost reached the day I've been waiting for. These past 13 days of reflecting 
+                on all the reasons you're amazing have only made me more certain of how I feel. 
+                You're extraordinary in every way, and tomorrow... tomorrow I have something to ask you.
+            </p>
+            <!-- END EDIT -->
+            <button class="btn-next" onclick="nextPage()">Valentine's Day →</button>
+        </div>
+    </section>
+
+    <!-- SCREEN 14: VALENTINE'S DAY PROPOSAL -->
+    <section class="screen" id="screen14" data-index="14">
+        <div class="content-card proposal-card">
+            <div class="date-badge special">February 14th ❤️</div>
+            <!-- EDIT MESSAGE HERE -->
+            <p class="proposal-message">
+                So here we are… Valentine’s Day.
+
+     So here we are... Valentine's Day. After 14 days of telling you all the reasons why you're incredible, I think you know how much you mean to me. You're not just someone I care about—you're someone I can't imagine my life without. You make me laugh, you challenge me to be better, you support me unconditionally, and you make every single day brighter. Being with you feels like the most natural thing in the world, and I want to make this official.
+            </p>
+            <h1 class="proposal-question">Will you be my Valentine? 💕</h1>
+            <!-- END EDIT -->
+            <div class="proposal-buttons">
+                <button class="btn-yes" id="btnYes" onclick="handleYes()">YES! 💖</button>
+                <button class="btn-no" id="btnNo" onclick="handleNo()">No</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCREEN 15: SUCCESS -->
+    <section class="screen" id="screen15" data-index="15">
+        <div class="content-card success-card">
+            <!-- EDIT MESSAGE HERE -->
+            <h1 class="success-title">You said YES! 🎉💕</h1>
+            <p class="success-message">
+                This is the happiest moment! Thank you for making this Valentine's Day absolutely 
+                perfect. I promise to cherish every moment with you, to celebrate all our days 
+                together, and to remind you every single day how special you are to me. 
+                Happy Valentine's Day, Mi Amor! ❤️✨
+            </p>
+            <!-- END EDIT -->
+        </div>
+        <div class="confetti-container" id="confettiContainer"></div>
+    </section>
+
+    <script src="countdown-script.js"></script>
+</body>
+</html>
